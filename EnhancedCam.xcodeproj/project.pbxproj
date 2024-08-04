@@ -14,6 +14,8 @@
 		EF0E2E712C5F813300DD0B57 /* EnhancedCamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0E2E702C5F813300DD0B57 /* EnhancedCamTests.swift */; };
 		EF0E2E7B2C5F813300DD0B57 /* EnhancedCamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0E2E7A2C5F813300DD0B57 /* EnhancedCamUITests.swift */; };
 		EF0E2E7D2C5F813300DD0B57 /* EnhancedCamUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0E2E7C2C5F813300DD0B57 /* EnhancedCamUITestsLaunchTests.swift */; };
+		EF0E2E8A2C5F822200DD0B57 /* EnhancedCamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0E2E892C5F822200DD0B57 /* EnhancedCamView.swift */; };
+		EF0E2E8C2C5F822700DD0B57 /* EnhancedCamViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0E2E8B2C5F822700DD0B57 /* EnhancedCamViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		EF0E2E762C5F813300DD0B57 /* EnhancedCamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnhancedCamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF0E2E7A2C5F813300DD0B57 /* EnhancedCamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnhancedCamUITests.swift; sourceTree = "<group>"; };
 		EF0E2E7C2C5F813300DD0B57 /* EnhancedCamUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnhancedCamUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EF0E2E892C5F822200DD0B57 /* EnhancedCamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnhancedCamView.swift; sourceTree = "<group>"; };
+		EF0E2E8B2C5F822700DD0B57 /* EnhancedCamViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnhancedCamViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 		EF0E2E532C5F813200DD0B57 = {
 			isa = PBXGroup;
 			children = (
+				EF0E2E8B2C5F822700DD0B57 /* EnhancedCamViewModel.swift */,
+				EF0E2E892C5F822200DD0B57 /* EnhancedCamView.swift */,
 				EF0E2E5E2C5F813200DD0B57 /* EnhancedCam */,
 				EF0E2E6F2C5F813300DD0B57 /* EnhancedCamTests */,
 				EF0E2E792C5F813300DD0B57 /* EnhancedCamUITests */,
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF0E2E8C2C5F822700DD0B57 /* EnhancedCamViewModel.swift in Sources */,
 				EF0E2E622C5F813200DD0B57 /* ContentView.swift in Sources */,
+				EF0E2E8A2C5F822200DD0B57 /* EnhancedCamView.swift in Sources */,
 				EF0E2E602C5F813200DD0B57 /* EnhancedCamApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,6 +433,9 @@
 				DEVELOPMENT_TEAM = 9D79AWT4TU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The app needs camera access to capture photo";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "The app needs photo library access to save photo";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "The app needs photo library access to save photo";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +465,9 @@
 				DEVELOPMENT_TEAM = 9D79AWT4TU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The app needs camera access to capture photo";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "The app needs photo library access to save photo";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "The app needs photo library access to save photo";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
