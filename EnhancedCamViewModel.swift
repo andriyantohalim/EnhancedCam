@@ -71,4 +71,3 @@ class EnhancedCamViewModel: NSObject, ObservableObject, AVCapturePhotoCaptureDel
         return previewLayer
     }
 }
-

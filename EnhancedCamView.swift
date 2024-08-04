@@ -29,6 +29,7 @@ struct EnhancedCamView: View {
                                 .stroke(Color.gray, lineWidth: 2)
                                 .frame(width: 60, height: 60)
                         )
+                        .shadow(radius: 10)
                 }
                 .padding(.bottom, 30)
             }
@@ -43,6 +44,7 @@ struct CameraPreview: UIViewRepresentable {
         let view = UIView()
         if let previewLayer = previewLayer {
             previewLayer.frame = UIScreen.main.bounds
+            previewLayer.videoGravity = .resizeAspectFill
             view.layer.addSublayer(previewLayer)
         }
         return view

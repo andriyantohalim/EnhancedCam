@@ -16,6 +16,7 @@
 		EF0E2E7D2C5F813300DD0B57 /* EnhancedCamUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0E2E7C2C5F813300DD0B57 /* EnhancedCamUITestsLaunchTests.swift */; };
 		EF0E2E8A2C5F822200DD0B57 /* EnhancedCamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0E2E892C5F822200DD0B57 /* EnhancedCamView.swift */; };
 		EF0E2E8C2C5F822700DD0B57 /* EnhancedCamViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0E2E8B2C5F822700DD0B57 /* EnhancedCamViewModel.swift */; };
+		EF0E2E8E2C5FA0BA00DD0B57 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EF0E2E8D2C5FA0BA00DD0B57 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		EF0E2E7C2C5F813300DD0B57 /* EnhancedCamUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnhancedCamUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		EF0E2E892C5F822200DD0B57 /* EnhancedCamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnhancedCamView.swift; sourceTree = "<group>"; };
 		EF0E2E8B2C5F822700DD0B57 /* EnhancedCamViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnhancedCamViewModel.swift; sourceTree = "<group>"; };
+		EF0E2E8D2C5FA0BA00DD0B57 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 		EF0E2E532C5F813200DD0B57 = {
 			isa = PBXGroup;
 			children = (
+				EF0E2E8D2C5FA0BA00DD0B57 /* README.md */,
 				EF0E2E8B2C5F822700DD0B57 /* EnhancedCamViewModel.swift */,
 				EF0E2E892C5F822200DD0B57 /* EnhancedCamView.swift */,
 				EF0E2E5E2C5F813200DD0B57 /* EnhancedCam */,
@@ -237,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF0E2E8E2C5FA0BA00DD0B57 /* README.md in Resources */,
 				EF0E2E672C5F813300DD0B57 /* Preview Assets.xcassets in Resources */,
 				EF0E2E642C5F813300DD0B57 /* Assets.xcassets in Resources */,
 			);
@@ -433,6 +437,7 @@
 				DEVELOPMENT_TEAM = 9D79AWT4TU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSCameraUsageDescription = "The app needs camera access to capture photo";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "The app needs photo library access to save photo";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "The app needs photo library access to save photo";
@@ -465,6 +470,7 @@
 				DEVELOPMENT_TEAM = 9D79AWT4TU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSCameraUsageDescription = "The app needs camera access to capture photo";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "The app needs photo library access to save photo";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "The app needs photo library access to save photo";
